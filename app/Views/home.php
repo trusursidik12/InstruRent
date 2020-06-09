@@ -7,70 +7,16 @@
 
 
     <div id="spaces-main" class="pt-perspective ">
-      <div class="top-header">
-        <div class="row">
-          <div class="columns small-12 medium-6 large-6">
-            <div class="__top-header-left">
-              <div class="lang_sel_list_horizontal" id="lang_sel_list">
-                <div id="lang_sel">
-                  <ul>
-                    <li><a href="#" class="lang_sel_sel icl-en"><img class="iclflag" src="https://themes.webdevia.com/call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/en.png" alt="en" title="English"> <span class="icl_lang_sel_current icl_lang_sel_native">English</span></a>
-                      <ul>
-                        <li class="icl-fr"> <a href="#"> <img class="iclflag" src="https://themes.webdevia.com/call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/fr.png" alt="fr" title="French"> <span class="icl_lang_sel_native">Francais</span> <span class="icl_lang_sel_translated"><span class="icl_lang_sel_bracket">(</span>French<span class="icl_lang_sel_bracket">)</span></span></a>
-                        </li>
-                        <li class="icl-es"><a href="#"><img class="iclflag" src="https://themes.webdevia.com/call-center-customer-services-wordpress-theme/wp-content/uploads/2017/12/es.png" alt="es"><span class="icl_lang_sel_native">Espanol</span><span class="icl_lang_sel_translated"><span class="icl_lang_sel_bracket">(</span>Spanish<span class="icl_lang_sel_bracket">)</span></span></a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <ul class="social-media">
-                <li class="">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li class="">
-                  <a href="#"><i class="fab fa-flickr"></i></a>
-                </li>
-                <li class="">
-                  <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                </li>
-                <li class="">
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li class="">
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="">
-                  <a href=""><i class="fab "></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="columns small-12 medium-6 large-6 hide-for-small-only">
-            <div class="__top-header-right">
-              <p>Join our team. Are you ready to change the game? <a href=""><span>Find out more →</span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
       <header class="l-header creative-layout" data-sticky-container>
         <div class="top-bar-container sticky slideUp ">
           <div class="row">
             <div class="site-title-bar" data-responsive-toggle="mobile-menu" data-hide-for="large">
               <div class="title-bar-left">
                 <button aria-label="Main Menu" class="menu-icon menu-toggle" type="button"></button>
-                <span class="site-mobile-title title-bar-title logo"> <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/" rel="home" title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" class="active"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/themes/backhoe/images/logo.png" alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></a>
+                <span class="site-mobile-title title-bar-title logo"> <a href="<?= base_url(); ?>" rel="home" title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" class="active"><img src="<?= base_url(); ?>/assets/dist/images/logo.png" /></a>
                 </span>
               </div>
               <div class="show-cart-btn">
-                <svg viewBox="0 -31 512 512" xmlns="http://www.w3.org/2000/svg" style="width: 25px;">
-                  <path d="M164.96 300.004h.024c.02 0 .04-.004.059-.004H437a15.003 15.003 0 0 0 14.422-10.879l60-210a15.003 15.003 0 0 0-2.445-13.152A15.006 15.006 0 0 0 497 60H130.367l-10.722-48.254A15.003 15.003 0 0 0 105 0H15C6.715 0 0 6.715 0 15s6.715 15 15 15h77.969c1.898 8.55 51.312 230.918 54.156 243.71C131.184 280.64 120 296.536 120 315c0 24.812 20.188 45 45 45h272c8.285 0 15-6.715 15-15s-6.715-15-15-15H165c-8.27 0-15-6.73-15-15 0-8.258 6.707-14.977 14.96-14.996zM477.114 90l-51.43 180H177.032l-40-180zm0 0M150 405c0 24.813 20.188 45 45 45s45-20.188 45-45-20.188-45-45-45-45 20.188-45 45zm45-15c8.27 0 15 6.73 15 15s-6.73 15-15 15-15-6.73-15-15 6.73-15 15-15zm0 0M362 405c0 24.813 20.188 45 45 45s45-20.188 45-45-20.188-45-45-45-45 20.188-45 45zm45-15c8.27 0 15 6.73 15 15s-6.73 15-15 15-15-6.73-15-15 6.73-15 15-15zm0 0">
-                  </path>
-                </svg>
                 <span class="min-cart-count"> 0 </span>
                 <div class="hidden-cart">
                   <div class="widget woocommerce widget_shopping_cart">
@@ -84,7 +30,7 @@
               <div class="top-bar-left">
                 <div class="site-desktop-title top-bar-title">
                   <div class="logo-wrapper " data-dropdown-menu>
-                    <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/" rel="home" title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" class="active"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/themes/backhoe/images/logo.png" alt="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" /></a>
+                    <a href="<?= base_url(); ?>" rel="home" title="Backhoe &#8211; Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" class="active"><img src="<?= base_url(); ?>/assets/dist/images/logo.png" /></a>
                   </div>
                   <div class="header_phone">
                     <p>Need I help? Talk to an Expert</p>
@@ -94,22 +40,22 @@
               </div>
               <div class="top-bar-right">
                 <ul id="menu-primary-menu" class="desktop-menu menu">
-                  <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-636 current_page_item active   color-2 menu-item-home"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/">Home</a></li>
-                  <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/shop/">Shop</a>
+                  <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-636 current_page_item active   color-2 menu-item-home"><a href="<?= base_url(); ?>">Home</a></li>
+                  <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children"><a href="<?= base_url(); ?>/shop/">Shop</a>
                     <ul class="submenu is-dropdown-submenu ">
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-3 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/shop/">Shop</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-3 "><a href="<?= base_url(); ?>/shop/">Shop</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                           <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                           </path>
                         </svg></li>
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/equipment-categories/">Browse By</a>
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-3 menu-item-has-children"><a href="<?= base_url(); ?>/equipment-categories/">Browse By</a>
                         <ul class="submenu is-dropdown-submenu ">
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-3 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/locations/">Locations</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-3 "><a href="<?= base_url(); ?>/locations/">Locations</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                               <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                               </path>
                             </svg></li>
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-3 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/equipment-categories/">Categories</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-3 "><a href="<?= base_url(); ?>/equipment-categories/">Categories</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                               <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                               </path>
@@ -123,59 +69,59 @@
                       </li>
                     </ul>
                   </li>
-                  <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-4 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/pricing/">Pricing</a></li>
+                  <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-4 "><a href="<?= base_url(); ?>/pricing/">Pricing</a></li>
                   <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-5 menu-item-has-children"><a href="#">Pages</a>
                     <ul class="submenu is-dropdown-submenu ">
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/about/">About us</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="<?= base_url(); ?>/about/">About us</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                           <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                           </path>
                         </svg></li>
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/our-team/">Our Team</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="<?= base_url(); ?>/our-team/">Our Team</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                           <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                           </path>
                         </svg></li>
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/services-1/">Services 1</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="<?= base_url(); ?>/services-1/">Services 1</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                           <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                           </path>
                         </svg></li>
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/services-2/">Services 2</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="<?= base_url(); ?>/services-2/">Services 2</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                           <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                           </path>
                         </svg></li>
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/faq/">FAQ</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="<?= base_url(); ?>/faq/">FAQ</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                           <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                           </path>
                         </svg></li>
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/contact/">Contact Us</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="<?= base_url(); ?>/contact/">Contact Us</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                           <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                           </path>
                         </svg></li>
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/contact-us-2/">Contact Us 2</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-5 "><a href="<?= base_url(); ?>/contact-us-2/">Contact Us 2</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                           <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                           </path>
                         </svg></li>
                     </ul>
                   </li>
-                  <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-6 menu-item-has-children"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/blog/">News</a>
+                  <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-6 menu-item-has-children"><a href="<?= base_url(); ?>/blog/">News</a>
                     <ul class="submenu is-dropdown-submenu ">
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-6 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/blog/">Blog List</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-6 "><a href="<?= base_url(); ?>/blog/">Blog List</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                           <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                           </path>
                         </svg></li>
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-6 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/blog-grid/">Blog Grid</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-6 "><a href="<?= base_url(); ?>/blog-grid/">Blog Grid</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                           <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                           </path>
                         </svg></li>
-                      <li class=" menu-item menu-item-type-post_type menu-item-object-post    color-6 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/2017/12/28/how-to-organize-a-construction-site/">Single Post</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
+                      <li class=" menu-item menu-item-type-post_type menu-item-object-post    color-6 "><a href="<?= base_url(); ?>/2017/12/28/how-to-organize-a-construction-site/">Single Post</a><svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                           <path d="M82.5016759,45.9206349 L1,45.9206349 L1,53.6984127 L82.5016759,53.6984127 L64.2258065,70.0431336 L70.3007856,75.4761905 L99,
           49.8095238 L70.3007856,24.1428571 L64.2258065,29.575914 L82.5016759,45.9206349 Z">
                           </path>
@@ -186,28 +132,28 @@
                     <ul class="submenu is-dropdown-submenu ">
                       <li class=" mega-menu-column">
                         <ul>
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/columns/">Columns</a>
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/clients/">Clients</a>
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/progress-bar/">Progress Bar</a>
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/testimonials/">Testimonials</a>
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="<?= base_url(); ?>/columns/">Columns</a>
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="<?= base_url(); ?>/clients/">Clients</a>
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="<?= base_url(); ?>/progress-bar/">Progress Bar</a>
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="<?= base_url(); ?>/testimonials/">Testimonials</a>
                           <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
                         </ul>
                       </li>
                       <li class=" mega-menu-column">
                         <ul>
-                          <li><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/count-up/">Count up</a>
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/text-with-icon/">Text with Icon</a>
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/forms-input/">Forms &#038; Input</a>
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/headings/">Headings</a>
+                          <li><a href="<?= base_url(); ?>/count-up/">Count up</a>
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="<?= base_url(); ?>/text-with-icon/">Text with Icon</a>
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="<?= base_url(); ?>/forms-input/">Forms &#038; Input</a>
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="<?= base_url(); ?>/headings/">Headings</a>
                           <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 ">
                         </ul>
                       </li>
                       <li class=" mega-menu-column">
                         <ul>
-                          <li><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/buttons/">Buttons</a>
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/tabs/">Tabs</a>
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/accordions/">Accordions</a>
-                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/pricing/">Pricing Table</a>
+                          <li><a href="<?= base_url(); ?>/buttons/">Buttons</a>
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="<?= base_url(); ?>/tabs/">Tabs</a>
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="<?= base_url(); ?>/accordions/">Accordions</a>
+                          <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-7 "><a href="<?= base_url(); ?>/pricing/">Pricing Table</a>
                         </ul>
                       </li>
                     </ul>
@@ -226,61 +172,61 @@
                   </div>
                 </div>
                 <div class="header-cta show-for-large-up large-screen">
-                  <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/contact-us-2/" class="wd-btn btn-solid btn-medium  icon-after">
+                  <a href="<?= base_url(); ?>/contact-us-2/" class="wd-btn btn-solid btn-medium  icon-after">
                     Request a call
                   </a> </div>
                 <nav class="mobile-menu vertical menu" id="mobile-menu">
                   <ul id="menu-primary-menu-1" class="vertical menu" data-accordion-menu data-submenu-toggle="true">
-                    <li id="menu-item-5169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-636 current_page_item menu-item-5169"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/" aria-current="page">Home</a></li>
-                    <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-62"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/shop/">Shop</a>
+                    <li id="menu-item-5169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-636 current_page_item menu-item-5169"><a href="<?= base_url(); ?>/" aria-current="page">Home</a></li>
+                    <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-62"><a href="<?= base_url(); ?>/shop/">Shop</a>
                       <ul class="vertical nested menu">
-                        <li id="menu-item-4643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4643"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/shop/">Shop</a></li>
-                        <li id="menu-item-3745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3745"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/equipment-categories/">Browse By</a>
+                        <li id="menu-item-4643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4643"><a href="<?= base_url(); ?>/shop/">Shop</a></li>
+                        <li id="menu-item-3745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3745"><a href="<?= base_url(); ?>/equipment-categories/">Browse By</a>
                           <ul class="vertical nested menu">
-                            <li id="menu-item-3707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3707"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/locations/">Locations</a></li>
-                            <li id="menu-item-3734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3734"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/equipment-categories/">Categories</a></li>
+                            <li id="menu-item-3707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3707"><a href="<?= base_url(); ?>/locations/">Locations</a></li>
+                            <li id="menu-item-3734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3734"><a href="<?= base_url(); ?>/equipment-categories/">Categories</a></li>
                           </ul>
                         </li>
                       </ul>
                     </li>
-                    <li id="menu-item-4078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4078"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/pricing/">Pricing</a></li>
+                    <li id="menu-item-4078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4078"><a href="<?= base_url(); ?>/pricing/">Pricing</a></li>
                     <li id="menu-item-3295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3295"><a href="#">Pages</a>
                       <ul class="vertical nested menu">
-                        <li id="menu-item-3300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3300"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/about/">About us</a></li>
-                        <li id="menu-item-3296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3296"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/our-team/">Our Team</a></li>
-                        <li id="menu-item-3298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3298"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/services-1/">Services 1</a></li>
-                        <li id="menu-item-3297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3297"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/services-2/">Services 2</a></li>
-                        <li id="menu-item-3299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3299"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/faq/">FAQ</a></li>
-                        <li id="menu-item-345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/contact/">Contact Us</a></li>
-                        <li id="menu-item-3769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/contact-us-2/">Contact Us 2</a></li>
+                        <li id="menu-item-3300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3300"><a href="<?= base_url(); ?>/about/">About us</a></li>
+                        <li id="menu-item-3296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3296"><a href="<?= base_url(); ?>/our-team/">Our Team</a></li>
+                        <li id="menu-item-3298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3298"><a href="<?= base_url(); ?>/services-1/">Services 1</a></li>
+                        <li id="menu-item-3297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3297"><a href="<?= base_url(); ?>/services-2/">Services 2</a></li>
+                        <li id="menu-item-3299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3299"><a href="<?= base_url(); ?>/faq/">FAQ</a></li>
+                        <li id="menu-item-345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345"><a href="<?= base_url(); ?>/contact/">Contact Us</a></li>
+                        <li id="menu-item-3769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3769"><a href="<?= base_url(); ?>/contact-us-2/">Contact Us 2</a></li>
                       </ul>
                     </li>
-                    <li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-64"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/blog/">News</a>
+                    <li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-64"><a href="<?= base_url(); ?>/blog/">News</a>
                       <ul class="vertical nested menu">
-                        <li id="menu-item-3875" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3875"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/blog/">Blog List</a></li>
-                        <li id="menu-item-3874" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3874"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/blog-grid/">Blog Grid</a></li>
-                        <li id="menu-item-3936" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3936"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/2017/12/28/how-to-organize-a-construction-site/">Single Post</a></li>
+                        <li id="menu-item-3875" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3875"><a href="<?= base_url(); ?>/blog/">Blog List</a></li>
+                        <li id="menu-item-3874" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3874"><a href="<?= base_url(); ?>/blog-grid/">Blog Grid</a></li>
+                        <li id="menu-item-3936" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3936"><a href="<?= base_url(); ?>/2017/12/28/how-to-organize-a-construction-site/">Single Post</a></li>
                       </ul>
                     </li>
                     <li id="menu-item-3809" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3809"><a href="#">Elements</a>
                       <ul class="vertical nested menu">
-                        <li id="menu-item-3798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3798"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/columns/">Columns</a></li>
-                        <li id="menu-item-3799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3799"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/clients/">Clients</a></li>
-                        <li id="menu-item-3800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3800"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/progress-bar/">Progress Bar</a></li>
-                        <li id="menu-item-3801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3801"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/testimonials/">Testimonials</a></li>
-                        <li id="menu-item-3802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3802"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/count-up/">Count up</a></li>
-                        <li id="menu-item-3803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3803"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/text-with-icon/">Text with Icon</a></li>
-                        <li id="menu-item-3804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3804"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/forms-input/">Forms &#038; Input</a></li>
-                        <li id="menu-item-3805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3805"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/headings/">Headings</a></li>
-                        <li id="menu-item-3806" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3806"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/buttons/">Buttons</a></li>
-                        <li id="menu-item-3807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3807"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/tabs/">Tabs</a></li>
-                        <li id="menu-item-3808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3808"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/accordions/">Accordions</a></li>
-                        <li id="menu-item-4077" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4077"><a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/pricing/">Pricing Table</a></li>
+                        <li id="menu-item-3798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3798"><a href="<?= base_url(); ?>/columns/">Columns</a></li>
+                        <li id="menu-item-3799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3799"><a href="<?= base_url(); ?>/clients/">Clients</a></li>
+                        <li id="menu-item-3800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3800"><a href="<?= base_url(); ?>/progress-bar/">Progress Bar</a></li>
+                        <li id="menu-item-3801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3801"><a href="<?= base_url(); ?>/testimonials/">Testimonials</a></li>
+                        <li id="menu-item-3802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3802"><a href="<?= base_url(); ?>/count-up/">Count up</a></li>
+                        <li id="menu-item-3803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3803"><a href="<?= base_url(); ?>/text-with-icon/">Text with Icon</a></li>
+                        <li id="menu-item-3804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3804"><a href="<?= base_url(); ?>/forms-input/">Forms &#038; Input</a></li>
+                        <li id="menu-item-3805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3805"><a href="<?= base_url(); ?>/headings/">Headings</a></li>
+                        <li id="menu-item-3806" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3806"><a href="<?= base_url(); ?>/buttons/">Buttons</a></li>
+                        <li id="menu-item-3807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3807"><a href="<?= base_url(); ?>/tabs/">Tabs</a></li>
+                        <li id="menu-item-3808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3808"><a href="<?= base_url(); ?>/accordions/">Accordions</a></li>
+                        <li id="menu-item-4077" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4077"><a href="<?= base_url(); ?>/pricing/">Pricing Table</a></li>
                       </ul>
                     </li>
                   </ul>
                   <div class="header-cta show-for-large-up large-screen">
-                    <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/contact-us-2/" class="wd-btn btn-solid btn-medium  icon-after">
+                    <a href="<?= base_url(); ?>/contact-us-2/" class="wd-btn btn-solid btn-medium  icon-after">
                       Request a call
                     </a> </div>
                 </nav>
@@ -337,7 +283,7 @@
                             return markup;
                           }
 
-                          var ajaxurl = 'https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-admin/admin-ajax.php';
+                          var ajaxurl = '<?= base_url(); ?>/wp-admin/admin-ajax.php';
                           $('#product_name').select2({
                             placeholder: 'What are you looking for?',
                             allowClear: true,
@@ -403,7 +349,7 @@
                               "initValues":{"y":41,"z":-118,"rotateX":-65,"opacity":0},
                               "animations":{"y":0,"z":0,"rotateX":0,"opacity":1,"delay":2,"ease":"easeOutQuint"}}'>
                         <div class='html-before item-target'></div>
-                        <form role="search" method="get" action="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/shop/">
+                        <form role="search" method="get" action="<?= base_url(); ?>/shop/">
                           <ul class="inline-list">
                             <li class="item-target">
                               <input type="hidden" name="post_type" value="product">
@@ -495,42 +441,42 @@
                       <div class="woocommerce columns-4">
                         <ul class="products columns-4 grid ">
                           <li class="product-category product first">
-                            <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product-category/scissor-lift/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-71-600x518.jpg" alt="Scissor Lift" width="700" height="700" />
+                            <a href="<?= base_url(); ?>/product-category/scissor-lift/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-71-600x518.jpg" alt="Scissor Lift" width="700" height="700" />
                               <h2 class="woocommerce-loop-category__title">
                                 Scissor Lift <mark class="count">(7)</mark> </h2>
                             </a></li>
                           <li class="product-category product">
-                            <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product-category/scissor-lift/rough-terrain-scissor-lift/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-700x700.jpg" alt="Rough Terrain Scissor Lift" width="700" height="700" srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-600x600.jpg 600w" sizes="(max-width: 700px) 100vw, 700px" />
+                            <a href="<?= base_url(); ?>/product-category/scissor-lift/rough-terrain-scissor-lift/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-700x700.jpg" alt="Rough Terrain Scissor Lift" width="700" height="700" srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_4-403-600x600.jpg 600w" sizes="(max-width: 700px) 100vw, 700px" />
                               <h2 class="woocommerce-loop-category__title">
                                 Rough Terrain Scissor Lift <mark class="count">(4)</mark> </h2>
                             </a></li>
                           <li class="product-category product">
-                            <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product-category/manlift/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_7-34-600x518.jpg" alt="Manlift" width="700" height="700" />
+                            <a href="<?= base_url(); ?>product-category/manlift/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_7-34-600x518.jpg" alt="Manlift" width="700" height="700" />
                               <h2 class="woocommerce-loop-category__title">
                                 Manlift <mark class="count">(1)</mark> </h2>
                             </a></li>
                           <li class="product-category product last">
-                            <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product-category/forklift/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_11-230-600x518.jpg" alt="Forklift" width="700" height="700" />
+                            <a href="<?= base_url(); ?>product-category/forklift/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_11-230-600x518.jpg" alt="Forklift" width="700" height="700" />
                               <h2 class="woocommerce-loop-category__title">
                                 Forklift <mark class="count">(5)</mark> </h2>
                             </a></li>
                           <li class="product-category product first">
-                            <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product-category/earthmoving-equipment/excavator/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_21-105-600x518.jpg" alt="Excavator" width="700" height="700" />
+                            <a href="<?= base_url(); ?>product-category/earthmoving-equipment/excavator/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_21-105-600x518.jpg" alt="Excavator" width="700" height="700" />
                               <h2 class="woocommerce-loop-category__title">
                                 Excavator <mark class="count">(7)</mark> </h2>
                             </a></li>
                           <li class="product-category product">
-                            <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product-category/earthmoving-equipment/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_24-1-600x518.jpg" alt="Earthmoving Equipment" width="700" height="700" />
+                            <a href="<?= base_url(); ?>product-category/earthmoving-equipment/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_24-1-600x518.jpg" alt="Earthmoving Equipment" width="700" height="700" />
                               <h2 class="woocommerce-loop-category__title">
                                 Earthmoving Equipment <mark class="count">(22)</mark> </h2>
                             </a></li>
                           <li class="product-category product">
-                            <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product-category/compaction-equipment/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_26-230-600x518.jpg" alt="Compaction Equipment" width="700" height="700" />
+                            <a href="<?= base_url(); ?>product-category/compaction-equipment/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_26-230-600x518.jpg" alt="Compaction Equipment" width="700" height="700" />
                               <h2 class="woocommerce-loop-category__title">
                                 Compaction Equipment <mark class="count">(9)</mark> </h2>
                             </a></li>
                           <li class="product-category product last">
-                            <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/product-category/boom-lift/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-700x700.jpg" alt="Boom Lift" width="700" height="700" srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-600x600.jpg 600w" sizes="(max-width: 700px) 100vw, 700px" />
+                            <a href="<?= base_url(); ?>product-category/boom-lift/"><img src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-700x700.jpg" alt="Boom Lift" width="700" height="700" srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/product_0005__-600x600.jpg 600w" sizes="(max-width: 700px) 100vw, 700px" />
                               <h2 class="woocommerce-loop-category__title">
                                 Boom Lift <mark class="count">(9)</mark> </h2>
                             </a></li>
@@ -548,7 +494,7 @@
 
 
                       <div class="wd-btn-wrap text-center ">
-                        <a href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/equipment-categories/" class="wd-btn btn-solid btn-color-1 hover-color-3 btn-medium btn-none  icon-after">
+                        <a href="<?= base_url(); ?>equipment-categories/" class="wd-btn btn-solid btn-color-1 hover-color-3 btn-medium btn-none  icon-after">
                           Find More </a>
                       </div>
 
@@ -655,16 +601,8 @@ background-size: cover">
                 <div class="wpb_column vc_column_container vc_col-sm-12">
                   <div class="vc_column-inner">
                     <div class="wpb_wrapper">
-
                       <div class="wd_empty_space" data-heightmobile="15" data-heighttablet="20" data-heightdesktop="40">
-
                       </div>
-
-
-
-
-
-
                     </div>
                   </div>
                 </div>

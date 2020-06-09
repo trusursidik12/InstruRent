@@ -9,7 +9,7 @@
 	<title>InstruRent</title>
 	<style type="text/css" data-type="vc_shortcodes-custom-css">
 		.vc_custom_1568850484830 {
-			background-image: url(http://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/09/slider-bg.jpg?id=4829) !important;
+			background-image: url(<?= base_url(); ?>/assets/dist/images/slider-bg.jpg?id=4829) !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
@@ -48,7 +48,7 @@
 		}
 
 		.vc_custom_1570182560154 {
-			background-image: url(http://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/testimonial-bg.jpg?id=5011) !important;
+			background-image: url(<?= base_url(); ?>/assets/dist/images/testimonial-bg.jpg?id=5011) !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
@@ -113,25 +113,6 @@
 			padding-right: 40px !important;
 		}
 	</style>
-	<script data-cfasync='false'>
-		window.$crisp = [];
-		CRISP_RUNTIME_CONFIG = {
-			locale: 'en'
-		};
-		CRISP_WEBSITE_ID = 'e63357f1-c2f8-409a-aad3-cb2adf04c040';
-		(function() {
-			d = document;
-			s = d.createElement('script');
-			s.src = '<?= base_url(); ?>/assets/dist/js/l.js';
-			s.async = 1;
-			d.getElementsByTagName('head')[0].appendChild(s);
-		})();
-	</script>
-	<link rel='dns-prefetch' href='//maps.googleapis.com' />
-	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-	<link rel='dns-prefetch' href='//s.w.org' />
-	<link rel="alternate" type="application/rss+xml" title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; Feed" href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/feed/" />
-	<link rel="alternate" type="application/rss+xml" title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; Comments Feed" href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/comments/feed/" />
 	<script type="text/javascript">
 		window._wpemojiSettings = {
 			"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
@@ -367,15 +348,7 @@
 	</script>
 	<script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/add-to-cart.min.js?ver=3.9.3'></script>
 	<script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/woocommerce-add-to-cart.js?ver=6.0.5'></script>
-	<link rel='https://api.w.org/' href='https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-json/' />
-	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/xmlrpc.php?rsd" />
 	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="<?= base_url(); ?>/assets/dist/xml/wlwmanifest.xml" />
-	<meta name="generator" content="WordPress 5.3.3" />
-	<meta name="generator" content="WooCommerce 3.9.3" />
-	<link rel="canonical" href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/" />
-	<link rel='shortlink' href='https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/' />
-	<link rel="alternate" type="application/json+oembed" href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2F" />
-	<link rel="alternate" type="text/xml+oembed" href="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2F&#038;format=xml" />
 
 	<noscript>
 		<style>
