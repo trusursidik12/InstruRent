@@ -762,7 +762,7 @@
                           </div>
                           <div class="wd-case-std__content">
                             <h4 class="wd-case-std__title">
-                              <a href="#">10 Tips to Find Best Backhoe</a>
+                              <a href="#">10 Tips to Find Best AQMS</a>
                             </h4>
                           </div>
                         </div>
@@ -1392,7 +1392,7 @@
                                 </ul>
                               </div>
                               <h4 class="wd-post__title">
-                                <a href="#">10 Tips to Find Best Backhoe</a>
+                                <a href="#">10 Tips to Find Best AQMS</a>
                               </h4>
                               <ul class="wd-post__meta clearfix">
                                 <li class="wd-post__date">
