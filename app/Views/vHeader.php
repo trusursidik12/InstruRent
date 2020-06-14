@@ -9,7 +9,7 @@
 	<title>InstruRent</title>
 	<style type="text/css" data-type="vc_shortcodes-custom-css">
 		.vc_custom_1568850484830 {
-			background-image: url(<?= base_url(); ?>/assets/dist/images/slider-bg.jpg?id=4829) !important;
+			background-image: url('<?= base_url(); ?>/assets/dist/images/slider-bg.jpg?id=4829') !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
@@ -48,7 +48,7 @@
 		}
 
 		.vc_custom_1570182560154 {
-			background-image: url(<?= base_url(); ?>/assets/dist/images/testimonial-bg.jpg?id=5011) !important;
+			background-image: url('<?= base_url(); ?>/assets/dist/images/testimonial-bg.jpg?id=5011') !important;
 			background-position: center !important;
 			background-repeat: no-repeat !important;
 			background-size: cover !important;
@@ -130,9 +130,6 @@
 	<link rel='stylesheet' id='wc-block-style-css' href='<?= base_url(); ?>/assets/dist/css/style.css?ver=2.5.14' type='text/css' media='all' />
 	<link rel='stylesheet' id='contact-form-7-css' href='<?= base_url(); ?>/assets/dist/css/styles.css?ver=5.1.6' type='text/css' media='all' />
 	<link rel='stylesheet' id='rs-plugin-settings-css' href='<?= base_url(); ?>/assets/dist/css/rs6.css?ver=6.1.0' type='text/css' media='all' />
-	<style id='rs-plugin-settings-inline-css' type='text/css'>
-		#rs-demo-id {}
-	</style>
 	<link rel='stylesheet' id='wd_buy_style-css' href='<?= base_url(); ?>/assets/dist/css/buy_style.css?ver=5.3.3' type='text/css' media='all' />
 	<link rel='stylesheet' id='woocommerce-layout-css' href='<?= base_url(); ?>/assets/dist/css/woocommerce-layout.css?ver=3.9.3' type='text/css' media='all' />
 	<link rel='stylesheet' id='woocommerce-smallscreen-css' href='<?= base_url(); ?>/assets/dist/css/woocommerce-smallscreen.css?ver=3.9.3' type='text/css' media='only screen and (max-width: 768px)' />
@@ -209,8 +206,6 @@
 			font-weight: 600;
 		}
 
-		.wd-heading {}
-
 		.wd-heading .title_a {
 			font-size: 36px;
 			color: #313131;
@@ -225,12 +220,6 @@
 			text-transform: uppercase;
 			line-height: 46px;
 		}
-
-		.wd-heading .sub_title_b {}
-
-		.wd-heading .title_c {}
-
-		.wd-heading .sub_title_c {}
 
 		.wd-heading .hr_a {
 			border-bottom-style: solid;
@@ -248,16 +237,6 @@
 			border-bottom-style: solid;
 			border-bottom-color: #fdb900;
 		}
-
-		.header-top.social_top_bar,
-		.orange_bar,
-		.l-header .header-top .contact-info,
-		.l-header .header-top i,
-		.l-header .header-top .social-icons.accent li i,
-		#lang_sel_list a.lang_sel_sel,
-		#lang_sel_list>ul>li a {}
-
-		header.l-header .top-bar-container .top-bar .top-bar-left .logo-wrapper .menu-text a img {}
 
 		header.l-header .top-bar-container.sticky .site-navigation.top-bar .top-bar-left .top-bar-title .logo-wrapper .menu-text {
 			padding: 0;
@@ -309,3 +288,11 @@
 </head>
 
 <body class="home page-template-default page page-id-636 theme-backhoe woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.0.5 vc_responsive">
+	<div class="page-loading">
+		<div class="spinner-loading">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
+		</div>
+	</div>
+	<div id="spaces-main" class="pt-perspective ">
+		<?= $this->include('vMenu') ?>

@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Musers extends Model
+class mUsers extends Model
 {
     protected $DBGroup = 'default';
     protected $table = 'a_users';
@@ -13,4 +13,9 @@ class Musers extends Model
     protected $allowedFields = ['email', 'password', 'name'];
     protected $createdField = 'created_at';
     protected $updatedField = 'updated_at';
+
+    public function register($data)
+    {
+        return false;
+    }
 }

@@ -1,3 +1,4 @@
+</div>
 <section class="first-footer">
 	<h3 class="hide">Footer</h3>
 	<div class="row">

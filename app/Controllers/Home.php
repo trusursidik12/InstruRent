@@ -2,19 +2,15 @@
 
 namespace App\Controllers;
 
-use App\Models\Musers;
+use App\Models\mUsers;
 use CodeIgniter\Controller;
 
 class Home extends BaseController
 {
 	public function index()
 	{
-		echo view('header');
-		echo view('home');
-		echo view('footer');
-		$users = new Musers();
-		echo "<pre>";
-		print_r($users->findAll());
-		echo "</pre>";
+		echo view('vHeader');
+		echo view('vHome');
+		echo view('vFooter');
 	}
 }
