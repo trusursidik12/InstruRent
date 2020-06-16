@@ -88,7 +88,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <?php if (!isset($__loggedin)) : ?>
+                        <?php if (!isset($_SESSION["logged_in"])) : ?>
                             <li class=" menu-item menu-item-type-post_type menu-item-object-page color-4"><a href="<?= base_url(); ?>/register">Register</a></li>
                         <?php endif ?>
                     </ul>
@@ -158,7 +158,7 @@
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="<?= base_url(); ?>/pricing/">Pricing Table</a></li>
                                 </ul>
                             </li>
-                            <?php if (!isset($__loggedin)) : ?>
+                            <?php if (!isset($_SESSION["logged_in"])) : ?>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="<?= base_url(); ?>/register">Register</a></li>
                             <?php endif ?>
                         </ul>

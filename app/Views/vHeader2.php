@@ -137,6 +137,7 @@
     <link rel='stylesheet' id='all-css' href='<?= base_url() ?>/assets/dist/css/all.min.css?ver=5.3.3' type='text/css' media='all' />
     <link rel='stylesheet' id='custom-line-css' href='<?= base_url(); ?>/assets/dist/css/custom-line.css?ver=5.3.3' type='text/css' media='all' />
     <!--[if lt IE 9]> <link rel='stylesheet' id='vc_lte_ie9-css' href='<?= base_url(); ?>/assets/dist/css/vc_lte_ie9.min.css?ver=6.0.5' type='text/css' media='screen' /> <![endif]-->
+    <link rel='stylesheet' id='custom-line-css' href='<?= base_url(); ?>/assets/dist/css/dashicons.min.css?ver=5.3.4' type='text/css' media='all' />
     <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/jquery.js?ver=1.12.4-wp'></script>
     <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/jquery-migrate.min.js?ver=1.4.1'></script>
     <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/revolution.tools.min.js?ver=6.0'></script>
