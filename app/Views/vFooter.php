@@ -47,15 +47,15 @@
 					<h4 class="block-title">Recent Post</h4>
 					<ul>
 						<li>
-							<a href="<?= base_url(); ?>/2019/08/28/best-practices-of-hr-management/">Best Practices of HR management</a>
+							<a href="#">Best Practices of HR management</a>
 							<span class="post-date">April 28, 2020</span>
 						</li>
 						<li>
-							<a href="<?= base_url(); ?>/2019/03/30/10-tips-to-find-best-lab-instruments/">10 Tips to Find Best Lab Instruments</a>
+							<a href="#">10 Tips to Find Best Lab Instruments</a>
 							<span class="post-date">March 30, 2020</span>
 						</li>
 						<li>
-							<a href="<?= base_url(); ?>/2017/12/28/how-to-organize-a-laboratory-site/">How to Setup a Laboratory Site</a>
+							<a href="#">How to Setup a Laboratory Site</a>
 							<span class="post-date">December 28, 2019</span>
 						</li>
 					</ul>
@@ -91,7 +91,6 @@
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/js_composer_front.min.js?ver=6.0.5'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/cart-fragments.min.js?ver=3.9.3'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/hoverIntent.min.js?ver=1.8.1'></script>
-<script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/wd-script.min.js?ver=1.0.0'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/wp-embed.min.js?ver=5.3.4'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/core.min.js?ver=1.11.4'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/widget.min.js?ver=1.11.4'></script>
@@ -99,18 +98,7 @@
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/slider.min.js?ver=1.11.4'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/jquery-ui-touch-punch.min.js?ver=3.9.3'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/accounting.min.js?ver=0.4.2'></script>
-<script type='text/javascript'>
-	/* <![CDATA[ */
-	var woocommerce_price_slider_params = {
-		"currency_format_num_decimals": "0",
-		"currency_format_symbol": "\u00a3",
-		"currency_format_decimal_sep": ".",
-		"currency_format_thousand_sep": ",",
-		"currency_format": "%s%v"
-	};
-	/* ]]> */
-</script>
-<script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/price-slider.min.js?ver=3.9.3'></script>
+
 </body>
 
 </html>
