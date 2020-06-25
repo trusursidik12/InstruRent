@@ -80,9 +80,73 @@
 	c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
 	document.body.className = c;
 </script>
+<script type='text/javascript'>
+	/* <![CDATA[ */
+	var wpcf7 = {
+		"apiSettings": {
+			"root": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-json\/contact-form-7\/v1",
+			"namespace": "contact-form-7\/v1"
+		}
+	};
+	/* ]]> */
+</script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/scripts.js?ver=5.1.6'></script>
+<script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/jquery.flexslider-min.js?ver=6.0.5'></script>
+<script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/photoswipe.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/photoswipe-ui-default.min.js?ver=4.1.1'></script>
+<script type='text/javascript'>
+	/* <![CDATA[ */
+	var wc_single_product_params = {
+		"i18n_required_rating_text": "Please select a rating",
+		"review_rating_required": "yes",
+		"flexslider": {
+			"rtl": false,
+			"animation": "slide",
+			"smoothHeight": true,
+			"directionNav": false,
+			"controlNav": "thumbnails",
+			"slideshow": false,
+			"animationSpeed": 500,
+			"animationLoop": false,
+			"allowOneSlide": false
+		},
+		"zoom_enabled": "",
+		"zoom_options": [],
+		"photoswipe_enabled": "1",
+		"photoswipe_options": {
+			"shareEl": false,
+			"closeOnScroll": false,
+			"history": false,
+			"hideAnimationDuration": 0,
+			"showAnimationDuration": 0
+		},
+		"flexslider_enabled": "1"
+	};
+	/* ]]> */
+</script>
+<script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/single-product.min.js?ver=3.9.3'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+	/* <![CDATA[ */
+	var woocommerce_params = {
+		"ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
+		"wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%"
+	};
+	/* ]]> */
+</script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/woocommerce.min.js?ver=3.9.3'></script>
+<script type='text/javascript'>
+	/* <![CDATA[ */
+	var wc_cart_fragments_params = {
+		"ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
+		"wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
+		"cart_hash_key": "wc_cart_hash_728ebccaeb4c0493f1a53f591ab2d1ae",
+		"fragment_name": "wc_fragments_728ebccaeb4c0493f1a53f591ab2d1ae",
+		"request_timeout": "5000"
+	};
+	/* ]]> */
+</script>
+<script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/checkout.min.js?ver=3.9.3'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/cart-fragments.min.js?ver=3.9.3'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/comment-reply.min.js?ver=5.3.3'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/hoverIntent.min.js?ver=1.8.1'></script>
@@ -91,7 +155,6 @@
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/js_composer_front.min.js?ver=6.0.5'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/cart-fragments.min.js?ver=3.9.3'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/hoverIntent.min.js?ver=1.8.1'></script>
-<script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/wp-embed.min.js?ver=5.3.4'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/core.min.js?ver=1.11.4'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/widget.min.js?ver=1.11.4'></script>
 <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/mouse.min.js?ver=1.11.4'></script>

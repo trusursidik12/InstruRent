@@ -12,6 +12,8 @@
     <link rel='stylesheet' id='contact-form-7-css' href='<?= base_url(); ?>/assets/dist/css/styles.css?ver=5.1.6' type='text/css' media='all' />
     <link rel='stylesheet' id='rs-plugin-settings-css' href='<?= base_url(); ?>/assets/dist/css/rs6.css?ver=6.1.0' type='text/css' media='all' />
     <link rel='stylesheet' id='wd_buy_style-css' href='<?= base_url(); ?>/assets/dist/css/buy_style.css?ver=5.3.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='photoswipe-css' href='<?= base_url(); ?>/assets/dist/css/photoswipe.min.css?ver=3.9.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='photoswipe-default-skin-css' href='<?= base_url(); ?>/assets/dist/css/default-skin.min.css?ver=3.9.3' type='text/css' media='all' />
     <link rel='stylesheet' id='woocommerce-layout-css' href='<?= base_url(); ?>/assets/dist/css/woocommerce-layout.css?ver=3.9.3' type='text/css' media='all' />
     <link rel='stylesheet' id='woocommerce-smallscreen-css' href='<?= base_url(); ?>/assets/dist/css/woocommerce-smallscreen.css?ver=3.9.3' type='text/css' media='only screen and (max-width: 768px)' />
     <link rel='stylesheet' id='woocommerce-general-css' href='<?= base_url(); ?>/assets/dist/css/woocommerce.css?ver=3.9.3' type='text/css' media='all' />
@@ -143,6 +145,11 @@
     <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/revolution.tools.min.js?ver=6.0'></script>
     <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/rs6.min.js?ver=6.1.0'></script>
     <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/jquery.blockUI.min.js?ver=2.70'></script>
+    <script type='text/javascript'>
+    /* <![CDATA[ */
+    var wc_add_to_cart_params = {"ajax_url":"\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+    /* ]]> */
+    </script>
     <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/add-to-cart.min.js?ver=3.9.3'></script>
     <script type='text/javascript' src='<?= base_url(); ?>/assets/dist/js/woocommerce-add-to-cart.js?ver=6.0.5'></script>
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="<?= base_url(); ?>/assets/dist/xml/wlwmanifest.xml" />
@@ -178,12 +185,13 @@
     </noscript>
 </head>
 
-<body class="page-template-default page page-id-56 theme-backhoe woocommerce-checkout woocommerce-page woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.0.5 vc_responsive">
+<body class="product-template-default single single-product postid-3701 theme-backhoe woocommerce woocommerce-page woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.0.5 vc_responsive">
     <div class="page-loading">
         <div class="spinner-loading">
             <div class="double-bounce1"></div>
             <div class="double-bounce2"></div>
         </div>
     </div>
-    <div id="spaces-main" class="pt-perspective ">
-        <?= $this->include('vMenu') ?>
+
+
+    <?= $this->include('vMenu') ?>
